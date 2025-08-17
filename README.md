@@ -1,4 +1,4 @@
-# FACT test task
+# FACT tasks
 
 URL = https://dsa.court.gov.ua/dsa/inshe/oddata/511/
 
