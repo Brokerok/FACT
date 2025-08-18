@@ -18,7 +18,7 @@ def select_and_process_file():
 
     try:
         # Reading file
-        df = pd.read_csv(file_path, sep=None, engine='python')
+        df = pd.read_csv(file_path, engine='python')
         firm_edrpou_file_values = df['firm_edrpou']
 
         for value in firm_edrpou_file_values:
